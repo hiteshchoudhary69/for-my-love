@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Love 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffe6f0;
+      overflow-x: hidden;
+    }
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #d63384;
+      font-family: 'Great Vibes', cursive;
+    }
+
+    button {
+      background-color: #ff66b2;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      color: white;
+      border-radius: 30px;
+      margin-top: 20px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      animation: slideUp 2s ease-in-out;
+    }
+
+    button:hover {
+      transform: scale(1.1);
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .fade {
+      animation: fade 1s ease-in-out;
+    }
+
+    .slideshow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .slide-img-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .slide-img {
+      width: 45vw;
+      max-height: 70vh;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      opacity: 0;
+      transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    }
+
+    .slide-left {
+      transform: translateX(-100px);
+    }
+
+    .slide-right {
+      transform: translateX(100px);
+    }
+
+    .slide-show {
+      opacity: 1;
+      transform: translateX(0);
+    }
+
+    .next-btn {
+      margin-top: 20px;
+      background-color: #d63384;
+    }
+
+    .message {
+      padding: 40px;
+      font-size: 1.3rem;
+      color: #4d0039;
+      max-width: 90vw;
+      text-align: justify;
+      animation: fadeIn 3s ease-in-out;
+      height: 100vh;
+      overflow-y: auto;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @keyframes slideUp {
+      0% { transform: translateY(50px); opacity: 0; }
+      100% { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div id="welcome" class="center">
+    <h1>Welcome meri jaan 💕</h1>
+    <button onclick="startSlideShow()">Press Me If You Love Your BF 💖</button>
+  </div>
+
+  <div id="message1" class="center hidden">
+    <h1>madam jiii ye aapke liye, dil se banaya hai</h1>
+  </div>
+
+  <div id="slideshow" class="slideshow hidden">
+    <div class="slide-img-container">
+      <img id="slide1" class="slide-img slide-left" src="" alt="Slideshow Image Left" />
+      <img id="slide2" class="slide-img slide-right" src="" alt="Slideshow Image Right" />
+    </div>
+    <button class="next-btn" onclick="nextSlide()">Click if you are a bhais 😛</button>
+  </div>
+
+  <div id="finalMessage" class="message hidden">
+    <p>
+      my cute little golu molu girl,<br><br>
+      I'm sitting here thinking about you, and my heart feels so full that I need to tell you everything. I want you to know how much I love you, how much you mean to me, and how you've made my life so amazing. We've known each other since we were kids,those school Back then, I never thought the girl I grew up with would one day become my whole world. Then, by some crazy chance, we ended up in the same school again for 11th and 12th, and after that, college brought us together once more. It feels like the world kept pushing us toward each other, like it always knew we were meant to be.<br><br>
+      
+      Now, here we are—7 months together in this beautiful love story. Bhagyaaaa, these 7 months have been the best time of my life. I never imagined that the girl I've known since childhood, the one I used to see everyday in the school, would become my girlfriend. And I know you didn't think it either—that the boy from your past would be the one you'd fall so hard for.<br><br>
+      
+      When we think about those old days, I still feel shy and start blushing, and I know you do too. It's so wild how life turned out, how we went from being just friends to being each other's everything.<br><br>
+      
+      You know all about me, Bhagyaaaa—even my past, my breakup, all the tough stuff. And still, you chose to love me. Not just love me, but love me in a way no one else ever did. You've seen me when I was down, and yet you hold me like I'm the most important person in the world. That's why you're everything to me—my happiness, my strength, my whole life.<br><br>
+      
+      My mood depends on you, my smile comes from you, and every day feels good because of you. You're the reason I wake up happy, the reason I keep going, the reason I believe in love.<br><br>
+      
+      I love everything about you. The cute little things you do—like when you act all childish and make me laugh, or how you bring me chocolates every time we meet. I love how you give me money when I'm short, even though I tell you not to. I love how you care for me, how you make me feel so special. Those chubby cheeks of yours, just like mine, make me want to squish them every time I see you. You're my silly, sweet, perfect girl, and I can't imagine my life without you.<br><br>
+      
+      Sometimes I just sit and think—how did I get so lucky? How did the girl I've known forever become the one I love more than anything? Every moment with you feels like a gift. When you smile, my whole day gets better. When you're upset, I feel it too. You're not just my girlfriend—you're my best friend, my partner.<br><br>
+      
+      These 7 months have shown me what real love is, and I promise you Bhagyaaaa, I'll spend every day making sure you feel just as loved as you make me feel. I can't wait to see what's next for us, because with you, every day feels like a new. You're my dream come true, my happy place, my everything.<br><br>
+      
+      I love you more than words can ever say, and I'll keep loving you forever, my cutieeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+    </p>
+  </div>
+
+  <audio id="bgMusic" src="Perfect.mp3"></audio>
+
+  <script>
+    const welcome = document.getElementById("welcome");
+    const message1 = document.getElementById("message1");
+    const slideshow = document.getElementById("slideshow");
+    const finalMessage = document.getElementById("finalMessage");
+    const bgMusic = document.getElementById("bgMusic");
+    const slide1 = document.getElementById("slide1");
+    const slide2 = document.getElementById("slide2");
+
+    const images = [
+      "img1.jpg", "img2.jpg", "img3.jpg", "img4.jpg",
+      "img5.jpg", "img6.jpg", "img7.jpg"
+    ];
+
+    let index = 0;
+
+    function startSlideShow() {
+      welcome.classList.add("hidden");
+      message1.classList.remove("hidden");
+      setTimeout(() => {
+        message1.classList.add("hidden");
+        slideshow.classList.remove("hidden");
+        bgMusic.play();
+        nextSlide();
+      }, 2000);
+    }
+
+    function nextSlide() {
+      // Check if we've shown all images
+      if (index >= images.length) {
+        slideshow.classList.add("hidden");
+        finalMessage.classList.remove("hidden");
+        return;
+      }
+
+      // Reset animation
+      slide1.classList.remove("slide-show");
+      slide2.classList.remove("slide-show");
+      
+      // Force reflow to restart animations
+      void slide1.offsetWidth;
+      void slide2.offsetWidth;
+
+      // Set first image
+      slide1.src = images[index];
+      slide1.classList.add("slide-img", "slide-left", "slide-show");
+
+      // Set second image if available
+      if (index + 1 < images.length) {
+        slide2.src = images[index + 1];
+        slide2.classList.add("slide-img", "slide-right", "slide-show");
+      } else {
+        // Handle the last single image case
+        slide2.src = "";
+        slide2.classList.add("slide-img", "slide-right");
+        slide2.classList.remove("slide-show");
+      }
+
+      // Increment for next pair of images
+      index += 2;
+    }
+  </script>
+</body>
+</html>
